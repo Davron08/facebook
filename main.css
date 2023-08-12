@@ -1,0 +1,187 @@
+@font-face {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-display: swap; 
+    src: url("../fonts/robotonormal.woff2") format("woff2"),
+         url("../fonts/robotonormal.woff") format("woff");
+ }
+ @font-face {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-display: swap; 
+    src: url("../fonts/robotomedium.woff2") format("woff2"),
+         url("../fonts/robotomedium.woff") format("woff");
+ }
+ * {
+    box-sizing: border-box;
+ }
+ body {
+    font-family: "Roboto";
+    font-weight: 400;      
+    background-color: #cfdde8;     
+ }
+ .container {
+    max-width: 392px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+ }
+ .wrapper {
+    width: 400px;
+    margin: 100px auto 0;
+ }
+ .site-header {
+     padding: 18px 0;   
+     background-color: #6a96d8; 
+     border-radius: 14px 14px 0 0;
+ }
+ .logo {
+     display: flex;
+     align-items: center;
+     text-decoration-line: none;
+ }
+ .logo::before {
+     display: inline-block;
+     width: 6px;
+     height: 6px;
+     margin-right: 10px;
+     background-color: #fff; 
+     border-radius: 50%; 
+     content: "";   
+ }
+ .logo::after {
+     display: inline-block;
+     width: 24px;
+     height: 24px;
+     margin-left: auto;
+     background-image: url(../images/delet.svg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     content: "";
+ }
+ .site-main {
+     padding: 24px 0 20px;
+     background-color: #fff;  
+     border-radius: 0 0 14px 14px;  
+ }
+ .day {
+     display: inline-flex;
+     margin-bottom: 24px;
+     color: #ddd;
+     text-align: center;
+     align-items: center;
+     font-size: 14px;
+     font-weight: 500;
+     line-height: normal;
+     letter-spacing: 0.35px;
+     vertical-align: middle;   
+ }
+ .day::before {
+     display: inline-block;
+     width: 145px;
+     height: 1px;
+     margin-right: 10px;
+     background-color: #ddd;
+     content: "";    
+ }
+ .day::after {
+     display: inline-block;
+     width: 146px;
+     height: 1px;
+     margin-left: 10px;
+     background-color: #ddd;
+     content: "";    
+ }
+ .chat__time {
+     display: inline-block;
+     margin: 0 0 6px 6px;
+     color: #ddd;
+     font-size: 12px;
+     font-weight: 400;
+     line-height: normal;   
+ }
+ .chat__wrapper {
+     width: 275px;
+     margin-bottom: 16px;
+     padding: 9px 63px 11px 9px;
+     border-top: 6px solid #e6edf6;
+     border-left: 6px solid #fff;
+     background-color: #e6edf6;
+ }
+ .chat__desc {
+     font-size: 14px;
+     line-height: 18px; 
+     letter-spacing: -0.42px; 
+     margin: 0;   
+     color: #000;
+ }
+ .chat__time:nth-child(4) {
+     display: flex;
+     flex-direction: row-reverse;
+     margin: 0 6px 6px 0;
+ }
+ .chat__wrapper:nth-child(5) {
+     display: block;
+     width: 275px;
+     margin-left: auto;
+     margin-bottom: 16px;
+     padding: 9px 9px 11px 10px;
+     border-top: 6px solid #e6edf6;
+     border-right: 6px solid #fff;
+     border-left: none;
+     background-color: #e6edf6;
+ }
+ .chat__wrapper:nth-child(7) {
+     width: 89px;
+     margin-bottom: 16px;
+     padding-right: 10px;
+ }
+ .chat__wrapper:nth-child(8) {
+     display: block;
+     width: 193px;
+     margin-left: auto;
+     margin-bottom: 30px;
+     padding: 9px 10px 11px;
+     border: none;
+     background-color: #ffc2c1;
+ }
+ .post__wrapper {
+     display: flex;
+     justify-content: space-between;
+     width: 352px;
+     padding: 4px 4px 4px 20px;
+     border-radius: 54px;
+     align-items: center;
+     border: 1px solid #ddd;
+     background: #fff;    
+ }
+ .post__wrapper:hover {
+     border-color: #000;
+ }
+ .post__text {
+     line-height: normal;
+     border: none; 
+     color: #000;
+     outline: none;
+ }
+ ::placeholder {
+     line-height: normal;
+     color: #bdbdbd;   
+     background-color: transparent;
+     border: none;
+ }
+ .post__btn {
+     width: 87px;
+     padding: 9px 15px;
+     border-radius: 100px;
+     border: none;
+     color: #fff;
+     background-color: #6a96d8;    
+ }
+ 
+
+ .site-header__wrapper {
+    display: flex;
+    justify-content: space-between;
+ }
